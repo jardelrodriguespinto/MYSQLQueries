@@ -1,0 +1,5 @@
+SELECT 
+    first_name,released_year,genre, AVG(rating)
+FROM
+    full_reviews
+GROUP BY released_year, genre, first_name WITH ROLLUP;

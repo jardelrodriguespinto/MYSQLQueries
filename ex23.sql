@@ -1,0 +1,1 @@
+SELECT title, AVG(rating) FROM full_reviews GROUP BY title ;

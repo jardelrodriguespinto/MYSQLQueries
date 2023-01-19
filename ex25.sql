@@ -1,0 +1,1 @@
+SELECT title,avg(rating) FROM full_reviews GROUP BY title WITH ROLLUP;

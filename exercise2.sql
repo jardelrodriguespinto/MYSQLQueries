@@ -1,0 +1,1 @@
+SELECT CONCAT_WS('? ', 'SEXY', 'CRAZY', 'DUMB') AS myself;
